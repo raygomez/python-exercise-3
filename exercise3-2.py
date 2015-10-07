@@ -8,9 +8,9 @@ class Circle(object):
     def __init__(self, radius):
         self.radius = radius
 
-    def getArea(self):
+    def get_area(self):
         return math.pi * self.radius * self.radius
 
-if __name__=='__main__':
+if __name__ == '__main__':
     circle = Circle(radius=10)
-    print(circle.getArea())
+    print(circle.get_area())

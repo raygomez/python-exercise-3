@@ -15,7 +15,7 @@ class MyClass(object):
         return self.value.upper()
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     obj = MyClass()
     obj.get_string()
     print(obj)
