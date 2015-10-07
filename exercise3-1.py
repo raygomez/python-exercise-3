@@ -2,6 +2,7 @@ from __future__ import print_function
 
 __author__ = 'ragomez'
 
+
 class MyClass(object):
 
     def __init__(self):
