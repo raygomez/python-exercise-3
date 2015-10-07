@@ -4,9 +4,6 @@ __author__ = 'ragomez'
 
 class Shape(object):
 
-    def __init__(self):
-        pass
-
     def get_area(self):
         return 0
 
@@ -14,7 +11,6 @@ class Shape(object):
 class Square(Shape):
 
     def __init__(self, length):
-        Shape.__init__(self)
         self.length = length
 
     def get_area(self):

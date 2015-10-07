@@ -4,9 +4,9 @@ __author__ = 'ragomez'
 
 class Car(object):
 
-    def __init__(self):
-        self.brand = ''
-        self.max_speed = 0
+    def __init__(self, brand='', max_speed=0):
+        self.brand = brand
+        self.max_speed = max_speed
 
     def set_brand(self, brand):
         self.brand = brand
@@ -23,3 +23,7 @@ if __name__ == '__main__':
     audi.set_brand('Audi')
     audi.set_max_speed(200)
     audi.print_data()
+
+    benz = Car('Mercedez Benz', 180)
+    benz.print_data()
+

@@ -26,3 +26,4 @@ if __name__ == '__main__':
 
     print(male.get_gender())
     print(female.get_gender())
+    #print(Person().get_gender())
